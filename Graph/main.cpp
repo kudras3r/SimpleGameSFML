@@ -2,9 +2,10 @@
 #include "Game.h"
 
 
-const int W = 1240, H = 720;
-
 int main() {
+	// Initialize srand
+	std::srand(static_cast<unsigned>(time(NULL)));
+
 	// initialize Game
 	Game game;
 
